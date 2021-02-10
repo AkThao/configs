@@ -1,0 +1,3 @@
+# Take screenshot
+"scrot ~/images/screenshots/%d-%m-%y-at-%H.%M.%S.png"
+    Print
