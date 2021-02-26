@@ -14,6 +14,8 @@ Plugin 'sainnhe/gruvbox-material'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'preservim/nerdtree'
+Plugin 'tell-k/vim-autopep8'
+Plugin 'jiangmiao/auto-pairs'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -50,9 +52,13 @@ filetype plugin indent on    " required
 set ruler
 set laststatus=2
 colorscheme gruvbox-material
+set background=dark
 set linespace=3
 set guifont=Menlo\ Regular:h12
 let g:airline_theme='bubblegum'
 set number
 set numberwidth=4
 set foldcolumn=0
+set shiftwidth=4
+
+syntax on
